@@ -6,10 +6,10 @@ public class Main {
         Vehiculo vehiculo2 = new Vehiculo("DEF456", "Ford", 2012, 1600);
         Vehiculo vehiculo3 = new Vehiculo("GHI789", "Chevrolet", 2015, 2000);
 
-        vehiculo1.mostrarInformacion();
-        System.out.println();
-        vehiculo2.mostrarInformacion();
-        System.out.println();
-        vehiculo3.mostrarInformacion();
+        VehiculoPrinter.imprimir(vehiculo1);
+        System.out.println("----------------");
+        VehiculoPrinter.imprimir(vehiculo2);
+        System.out.println("----------------");
+        VehiculoPrinter.imprimir(vehiculo3);
     }
 }
