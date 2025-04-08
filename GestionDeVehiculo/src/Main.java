@@ -8,10 +8,10 @@ public class Main {
         vehiculos.add(new Camion("JKL012", "Scania", 2018, 5000, true));
         vehiculos.add(new Auto("MNO345", "Honda", 2021, 800, 5));
 
-        // Se recorre la lista e imprime cada vehículo.
+   
         for (Vehiculo v : vehiculos) {
             VehiculoPrinter.imprimir(v);
             System.out.println("----------------");
         }
     }
-} 
+}
