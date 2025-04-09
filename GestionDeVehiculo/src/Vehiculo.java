@@ -66,4 +66,8 @@ public class Vehiculo {
         this.capacidadCargaKg = capacidadCargaKg;
     }
 
+    public String getInformacionAdicional() {
+        return "";
+    }
+
 }

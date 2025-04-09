@@ -19,4 +19,9 @@ public class Auto extends Vehiculo {
         }
         this.cantidadPasajeros = cantidadPasajeros;
     }
+
+    @Override
+    public String getInformacionAdicional() {
+        return "Cantidad de pasajeros: " + cantidadPasajeros;
+    }
 }
